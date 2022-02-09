@@ -18,8 +18,8 @@ export default function TodoList() {
   };
   const deleteItems=(id)=>{
     console.log("deleted");
-    setNewItem((newItem) =>{
-       return newItem.filter((arr, index)=>{
+    setNewItem((preValue) =>{
+       return preValue.filter((arr, index)=>{
         return index !== id
     });
 });
@@ -42,7 +42,9 @@ export default function TodoList() {
             onChange={itemAdd}
           />
 
-          <Button className="newBtn" onClick={listOfData}>
+          <Button 
+          className="newBtn" 
+          onClick={listOfData}>
             <AddIcon />
           </Button>
           <br />
