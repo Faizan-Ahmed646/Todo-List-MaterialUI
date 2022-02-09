@@ -10,12 +10,16 @@ export default function TodoList() {
   const itemAdd = (e) => {
     setItem(e.target.value);
   };
+
+
   const listOfData = () => {
     setNewItem((preValue) => {
       return [...preValue, item];
     });
     setItem(" ");
   };
+
+  
   const deleteItems=(id)=>{
     console.log("deleted");
     setNewItem((preValue) =>{
@@ -27,12 +31,13 @@ export default function TodoList() {
 
 
 
+
   return (
     <>
       <div className="main_div">
         <div className="center_div">
           <br />
-          <h1> TodoList </h1>
+          <h2> TodoList </h2>
           <br />
 
           <input
