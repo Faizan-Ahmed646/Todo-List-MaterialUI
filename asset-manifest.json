@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Faizan-Ahmed646/Todo-List-MaterialUI/static/css/main.dadddb1a.css",
+    "main.js": "/Faizan-Ahmed646/Todo-List-MaterialUI/static/js/main.cbcb04a5.js",
+    "index.html": "/Faizan-Ahmed646/Todo-List-MaterialUI/index.html",
+    "main.dadddb1a.css.map": "/Faizan-Ahmed646/Todo-List-MaterialUI/static/css/main.dadddb1a.css.map",
+    "main.cbcb04a5.js.map": "/Faizan-Ahmed646/Todo-List-MaterialUI/static/js/main.cbcb04a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dadddb1a.css",
+    "static/js/main.cbcb04a5.js"
+  ]
+}
