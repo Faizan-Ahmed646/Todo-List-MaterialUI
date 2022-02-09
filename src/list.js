@@ -4,13 +4,18 @@ export default function List(props) {
   return (
     <div 
     className="todo_style">
+
       <span>
+
         <HighlightOffIcon 
         className="deleteIcon" 
         onClick={ ()=>{
-            props.onSelect(props.id); }}/>
+        props.onSelect(props.id); }}/>
+      
       </span>
+
       <li>{props.text}</li>
+      
     </div>
   );
 }
